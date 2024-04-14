@@ -16,6 +16,7 @@ export default MainLayout;
 const MainContainer = styled.main`
   display: flex;
   justify-content: center;
+  min-width: 1024px;
 `;
 
 const Content = styled.div`
