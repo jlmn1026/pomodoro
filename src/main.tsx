@@ -5,8 +5,8 @@ import App from "./App";
 
 const globalStyle: UIStyle = {
   body: {
-    bg: "#fa4224",
-    color: "white",
+    bg: "#475f94",
+    color: "black",
   },
 };
 

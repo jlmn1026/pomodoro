@@ -1,10 +1,12 @@
 import { styled } from "@linaria/react";
 import { Outlet } from "react-router-dom";
+import CommonHeader from "./CommonHeader";
 
 const MainLayout = () => {
   return (
     <MainContainer>
       <Content>
+        <CommonHeader />
         <Outlet />
       </Content>
     </MainContainer>
@@ -22,5 +24,7 @@ const MainContainer = styled.main`
 const Content = styled.div`
   min-width: 1024px;
   min-height: 100vh;
-  background-color: #475f94;
+  height: 100%;
+  background-color: #eee;
+  box-shadow: 6px 6px 10px 0px rgba(250, 250, 250, 0.1);
 `;
