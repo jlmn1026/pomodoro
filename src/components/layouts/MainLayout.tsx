@@ -23,6 +23,7 @@ const MainContainer = styled.main`
 
 const Content = styled.div`
   min-width: 1024px;
+  max-width: 1200px;
   min-height: 100vh;
   height: 100%;
   background-color: #eee;
